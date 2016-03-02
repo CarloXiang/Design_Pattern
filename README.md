@@ -7,12 +7,12 @@
 ![image](https://github.com/jasonli822/Design_Pattern/blob/master/diagrams/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png)
 
 **简单工厂模式在java中的应用** 
-java.text.DateFormat
+<br/>java.text.DateFormat
 
 **简单工厂模式的优缺点**
 <br/>优点：
 <br/>1) 模式的核心是工厂类，这个类含有必要的逻辑，可以决定在什么时候创建哪一个产品的实例，以达到分工明确
-<br/>2）客户端不再创建对象，而是把创建对象的职责交给了具体的工厂去创建
+<br/>2) 客户端不再创建对象，而是把创建对象的职责交给了具体的工厂去创建
 <br/>缺点：
 <br/>1) 工厂的静态方法无法被继承
 <br/>2) 代码维护不易，对象要是很多的话，工厂是一个很庞大的类
