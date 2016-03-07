@@ -5,8 +5,7 @@ package codeDesign.proxy;
  */
 public class Client {
     public static void main(String[] args) {
-        Subject subject = new RealSubject();
-        Proxy proxy = new Proxy(subject);
+        Proxy proxy = new Proxy();
         proxy.operate();
     }
 }
