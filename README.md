@@ -235,3 +235,24 @@ HttpServlet担任抽象模板角色
 
 TestServlet担任具体模板角色
     TestServlet置换了父类HttpServlet中七个基本方法中的其中两个，分别是doGet()和doPost()。
+    
+#### 9.适配器模式
+**概述** <br/>
+将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能在一起工作的那些类可以一起工作。
+
+<br/>
+**模式中的角色** <br/>
+-- 目标接口(Target)：客户所期望的接口。目标可以是具体的或者抽象的类，也可以是接口。<br/>
+-- 需要适配的类(Adapter)：需要适配的类或者适配者类。<br/>
+-- 适配器(Adapter)：通过包装一个需要适配的对象，把原接口转换成目标接口。<br/>
+
+<br/>
+**实现方式**
+(1) 类的适配器模式 (采用继承实现)<br/>
+![image](https://github.com/jasonli822/Design_Pattern/blob/master/diagrams/%E7%B1%BB%E7%9A%84%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png)
+
+<br/>
+(2) 对象适配器 (采用组合方式实现) <br/>
+![image](https://github.com/jasonli822/Design_Pattern/blob/master/diagrams/%E5%AF%B9%E8%B1%A1%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png)
+
+
