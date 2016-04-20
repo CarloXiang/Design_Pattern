@@ -116,7 +116,7 @@ Proxy：代理主题角色，也叫委托类、代理类。它把所有抽象主
 <br/>
 ![image](https://github.com/jasonli822/Design_Pattern/blob/master/diagrams/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.png)
 
-#### 7.装饰者模式
+#### 7.策略模式
 策略模式定义了一系列的算法，并将每一个算法封装起来，而且使它们还可以相互替换。策略模式让算法独立于使用它的客户而独立变化。
 <br/>
 **组成** <br/>
