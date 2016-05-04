@@ -256,3 +256,8 @@ TestServlet担任具体模板角色
 ![image](https://github.com/jasonli822/Design_Pattern/blob/master/diagrams/%E5%AF%B9%E8%B1%A1%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png)
 
 
+#### 10.Builder模式
+Builder模式是一步一步创建一个复杂对象的创建型模式，它允许用户在不知道内部结构构建细节的情况下，可以更精细地控制对象的构造流程。该模式是为了将构建复杂对象的过程和它的部件解耦，使得构建过程和部件的表示隔离开来。
+
+示例代码是针对这样的一个使用场景：当初始化一个对象特别复杂，如参数多，且很多参数具有默认值时。<br/>
+![image](https://github.com/jasonli822/Design_Pattern/blob/master/diagrams/Builder%E6%A8%A1%E5%BC%8F.png)
